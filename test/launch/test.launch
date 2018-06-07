@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="test" type="param_test_pub" respawn="false" name="param_test_pub" output="screen">
+    <!--<rosparam file="$(find test)/cfg/test.yaml" command="load"/>-->
+  </node>
+</launch>
